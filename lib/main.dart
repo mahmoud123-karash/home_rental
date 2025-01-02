@@ -23,7 +23,6 @@ class MyApp extends StatelessWidget {
           splitScreenMode: true,
           builder: (context, child) {
             return MaterialApp(
-              title: S.of(context).home,
               localizationsDelegates: [
                 S.delegate,
                 GlobalMaterialLocalizations.delegate,
